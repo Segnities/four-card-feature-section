@@ -1,17 +1,23 @@
 .card-wrapper {
   width: 100%;
   display: grid;
-  align-content: center;
+  align-content: flex-start;
   justify-items: center;
-  grid-template-columns: 1fr 290px 1fr;
-  grid-template-rows: 150px 150px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 1fr 150px;
+  column-gap: 30px;
   margin-top: 50px;
 }
 
 .card {
+  width: 100%;
+  height: 200px;
   display: flex;
   flex-direction: column;
   padding: 25px;
+  border-radius: 5px;
+  border-top: 4px solid #555;
+  box-shadow: 2px 4px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -26,6 +32,7 @@
 }
 
 .card-image {
+  margin-top: 15px;
   align-self: flex-end;
 }
 
@@ -36,18 +43,26 @@
 
 .grid-item-supervisor {
   grid-row: 2;
+  border-top: 4px solid #44d3d1;
+  margin-top: -40px;
 }
 
 .grid-item-team-builder {
   grid-column: 2;
+  border-top: 4px solid #eb5354;
 }
 
 .grid-item-karma {
   grid-column: 2;
   grid-row: 3;
+  border-top: 4px solid #fcae4b;
+  margin-top: -80px;
 }
 
 .grid-item-calculator {
   grid-column: 3;
   grid-row: 2;
+  border-top: 4px solid #539df1;
+  margin-top: -40px;
+
 }
