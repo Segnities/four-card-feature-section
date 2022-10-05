@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   padding: 25px;
-  border-radius: 5px;
+  border-radius: 8px;
   border-top: 4px solid #555;
   box-shadow: 2px 4px 15px 5px rgba(0, 0, 0, 0.2);
 }
@@ -64,5 +64,26 @@
   grid-row: 2;
   border-top: 4px solid #539df1;
   margin-top: -40px;
+}
 
+@media (max-width: 720px) {
+  .card-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .grid-item-supervisor {
+    margin-top: 0px;
+  }
+  .grid-item-karma {
+    margin-top: 0px;
+  }
+
+  .grid-item-calculator {
+    margin-top: 0px;
+  }
 }
