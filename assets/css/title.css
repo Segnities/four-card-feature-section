@@ -28,3 +28,17 @@
     font-weight: 300;
     margin-top: 10px;
 }
+
+@media (max-width: 920px) {
+    .title {
+        margin-top: 25px;
+    }
+
+    .title-key-words, .title-powered {
+        font-size: 21px;
+    }
+
+    .title-description {
+        width: 100%;
+    }
+}
