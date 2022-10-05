@@ -1,0 +1,27 @@
+.card-wrapper {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.grid-item-supervisor {
+    grid-row: 2;
+}
+
+.grid-item-team-builder {
+    grid-column: 2;
+}
+
+.grid-item-karma {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-item-calculator {
+    grid-column: 3;
+    grid-row: 2;
+}

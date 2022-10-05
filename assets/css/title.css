@@ -1,0 +1,30 @@
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    color: #505163;
+}
+
+.title-key-words {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.title-powered {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title-description {
+    width: 430px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+}
