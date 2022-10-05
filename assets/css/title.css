@@ -29,7 +29,7 @@
     margin-top: 10px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
     .title {
         margin-top: 25px;
     }
