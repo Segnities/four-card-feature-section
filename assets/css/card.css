@@ -4,14 +4,14 @@
   align-content: flex-start;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 1fr 150px;
+  grid-template-rows: 80px 80px 80px;
   column-gap: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .card {
   width: 100%;
-  height: 200px;
+  height: 230px;
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -36,15 +36,11 @@
   align-self: flex-end;
 }
 
-.card-image img {
-  width: 48px;
-  height: 48px;
-}
-
 .grid-item-supervisor {
   grid-row: 2;
   border-top: 4px solid #44d3d1;
-  margin-top: -40px;
+  margin-top: 30px;
+
 }
 
 .grid-item-team-builder {
@@ -56,14 +52,17 @@
   grid-column: 2;
   grid-row: 3;
   border-top: 4px solid #fcae4b;
-  margin-top: -80px;
+  margin-top: 100px;
+
 }
 
 .grid-item-calculator {
   grid-column: 3;
   grid-row: 2;
   border-top: 4px solid #539df1;
-  margin-top: -40px;
+  margin-top: 30px;
+  
+
 }
 
 @media (max-width: 920px) {
@@ -85,5 +84,10 @@
 
   .grid-item-calculator {
     margin-top: 0px;
+  }
+
+  .card-image img {
+    width: 48px;
+    height: 48px;
   }
 }

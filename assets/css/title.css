@@ -11,12 +11,12 @@
 }
 
 .title-key-words {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 300;
 }
 
 .title-powered {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -24,7 +24,7 @@
     width: 430px;
     min-width: 200px;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     margin-top: 10px;
 }
